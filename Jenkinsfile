@@ -2,8 +2,8 @@ pipeline {
     agent any
 
     environment {
-        DOCKER_IMAGE = "tjdudgkr0959/msa_userservice"
-        SERVER_IP = "43.203.221.254"
+        DOCKER_IMAGE = "jehyung/msa_userservice"
+        SERVER_IP = "13.209.6.142"
         CONTAINER_NAME = "msa_userservice"
     }
 
